@@ -6,8 +6,9 @@ print('Not existing value:',my_dict.get('Linda'))
 my_dict.update({'Nikita': 2010,
                 'Anton': 1970})
 print(my_dict)
-del my_dict['Sam']
+x = my_dict.pop('Sam')
 print(my_dict)
+print(x)
 
 ########################
 
